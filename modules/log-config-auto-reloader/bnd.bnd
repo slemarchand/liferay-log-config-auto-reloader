@@ -1,0 +1,8 @@
+Bundle-Name: log-config-auto-reloader
+Bundle-SymbolicName: log-config-auto-reloader
+Bundle-Version: 1.0.0
+Import-Package:\
+	com.liferay.petra.log4j;resolution:="optional",\
+	com.liferay.portal.log4j;resolution:="optional",\
+	*
+-noimportjava: true

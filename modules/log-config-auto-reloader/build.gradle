@@ -1,0 +1,9 @@
+dependencies {
+	compileOnly group: "biz.aQute.bnd", name: "biz.aQute.bndlib", version: "3.1.0"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.log4j", version: "1.0.0"
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	compileOnly group: "org.osgi", name: "org.osgi.framework", version: "1.9.0"
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+
+	testCompile group: "junit", name: "junit"
+}
