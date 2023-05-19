@@ -7,12 +7,8 @@ import com.slemarchand.log.config.auto.reloader.internal.log4j.Log4JUtil;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Map;
 
-import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
-import org.osgi.service.component.annotations.Deactivate;
-import org.osgi.service.component.annotations.Modified;
 import org.osgi.service.component.annotations.Reference;
 
 @Component(

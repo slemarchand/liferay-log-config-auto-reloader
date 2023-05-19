@@ -21,7 +21,7 @@ public class Log4JUtilPortalImpl implements Log4JUtil {
 
 	@Activate
 	public void activate() {
-		_log.info("activate()");
+		_log.debug("activate()");
 	}
 
 	public void configureLog4J(URL url) {
