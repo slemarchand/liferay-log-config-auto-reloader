@@ -1,4 +1,4 @@
-# Log Config Auto Reloader for Liferay 🪵⚙️🔥🔄
+# Log Config Auto Reloader for Liferay 🔥
 
 ![license](https://img.shields.io/github/license/slemarchand/lfr-log-config-auto-reloader?style=flat-square)
 
@@ -16,22 +16,19 @@ Get the `log-config-auto-reloader.jar` file from the [release page](https://gith
 
 Go to Control `Panel > System Settings > Infrastructure > Log Config Auto Reloader` and edit the configuration.
 
+![Control Panel Configuration Form](doc/control_panel_screenshot.png) 
 
 Configuration parameters are:
-* 
-*
-*
-*
-*
-*
+* **Watch log levels properties file** (yes/no)
+* **Log levels properties file path** (file system path)
+* **Create log levels properties file if not exist** (yes/no)
+* **Watch Log4j XML file** (yes/no)
+* **Log4j XML file path** (file system path)
+* **Create Log4j XML file if not exist** (yes/no)
 
 Don't forget to submit the configuration form.
 
 Alternatively, you can just the drop [this configuration file](https://github.com/slemarchand/lfr-log-config-auto-reloader/blob/main/configs/dev/osgi/configs/com.slemarchand.log.config.auto.reloader.internal.configuration.LogConfigAutoReloaderConfiguration.config) (usual config for local developement) into your `$LIFERAY_HOME/osgi/deploy` directory.
-
-## Usage
-
-
 
 ## License
 
